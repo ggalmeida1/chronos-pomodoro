@@ -10,6 +10,7 @@ import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
 import { DefaultButton } from './components/DefaultButton'
 import { PlayCircleIcon } from 'lucide-react'
+import { Footer } from './components/Footer'
 
 
 
@@ -38,6 +39,9 @@ export function App() {
               <DefaultButton icon={<PlayCircleIcon />} />
             </div>
           </form>
+        </Container>
+        <Container>
+          <Footer />          
         </Container>
       </>
       
