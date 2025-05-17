@@ -7,6 +7,7 @@ import './styles/theme.css'
 import './styles/global.css'
 import { Timer } from './components/Timer'
 import { DefaultInput } from './components/DefaultInput'
+import { Cycles } from './components/Cycles'
 
 
 
@@ -31,8 +32,7 @@ export function App() {
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="formRow">
-              <p>Ciclos</p>
-              <p>0 0 0 0 0 </p>
+              <Cycles />
               <button type="submit">Enviar</button>
             </div>
           </form>
